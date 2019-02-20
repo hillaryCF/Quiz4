@@ -1,0 +1,6 @@
+@mixin media600 ($with600) {
+  @media only screen
+  and ( max-width : $with600) {
+    @content;
+  }
+}

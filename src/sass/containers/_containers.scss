@@ -1,0 +1,26 @@
+#second-content-tab {
+  display: none;
+}
+.second-tittle-tab {
+  width: 40%;
+}
+.first-tittle-tab {
+  width: 40%;
+  @include media600 ($with600){
+    display: block;
+  }
+}
+#second-content-tab {
+  @include media600 ($with600){
+    display: none;
+  }
+}
+#first-content-tab {
+  @include media600 ($with600){
+    display: none;
+  }
+}
+.tittle {
+
+}
+

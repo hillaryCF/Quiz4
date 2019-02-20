@@ -1,0 +1,15 @@
+﻿1. Se cambiará toda la estructura ya que tiene muchas etiquetas y clases sin sentido.
+2. Todas las clases se cambiarán.
+3. En la parte del título utilizare una <div> con una clase para así poder darle los estilos a sus hijos sin necesidad de que cada uno tenga una clase.
+4. Para los tabs es mejor utilizar botones con una clase ya que son clickables y fáciles de utilizar.
+5. El contenido de cada tab estará dentro de un div con su respectiva clase
+6. El primer <div> contendrá: 
+→ <p> para el texto.
+→ <button> que se utilizara para el print debido a que el mismo solo mostrará un        popup.
+→ <ol> ya que es una lista numerada y esta etiqueta enumera la lista, tendrá su respectiva <img>, la ultima contiene en su descripción un link a otra página por lo que usare un <a>.
+1. Segundo <div> incluirá:
+→ Al igual que primero una etiqueta <ul> con su respectiva <img>.
+→ Para la lista se utilizará <ul> debido a que es una lista.
+→ Tendrá otro <div> el cual contendrá un <p> con información sobre el número de devolución.
+→<p> para la información de contacto y ubicación que encuentra al final del contenedor.
+1. Lo que se ubica al final de cada contenedor estará en un <p> con un <a> al final con un link ya que me redirige a otra página.
